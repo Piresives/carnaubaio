@@ -2017,6 +2017,6 @@
   /* WRAP — padding mínimo em telas muito pequenas (< 380px) */
   @media (max-width: 380px) {
     .wrap {
-      padding: 0 14px;
+      padding: 0 5%;
     }
   }
