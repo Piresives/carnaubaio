@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carnauba.io — Sistema para estúdios de estética automotiva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="top">
+    <div class="wrap nav-row">
+      <a class="brand" href="#"><img src="assets/LOGO2.png" alt="Carnauba.io" class="brand-logo"></a>
+      <div class="nav-links">
+        <a href="#vitrine">Vitrine Online</a>
+        <a href="#plataforma">A plataforma</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#planos">Planos</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="https://carnauba-io.vercel.app/login" style="padding: 10px 16px;">Entrar</a>
+        <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login" style="padding: 10px 18px;">Começar
+          grátis</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ 01 · HERO ============ -->
+  <header class="hero" data-screen-label="Hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <h1>
+            Sua empresa de<br>
+            estética automotiva<br>
+            <span class="amber">em uma só tela.</span>
+          </h1>
+          <p class="lead">
+            Agenda, ordem de serviço, CRM, estoque e fidelidade digital tudo num lugar só.
+            E uma <b style="color:var(--ember);font-weight:500;">Vitrine Online</b> onde o cliente agenda sozinho, sem
+            você tocar no WhatsApp.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">
+              Começar 15 dias grátis
+              <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a class="btn btn-ghost"
+              href="https://wa.me/5517988069408?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20um%20especialista">Falar
+              com Especialista</a>
+          </div>
+          <div class="hero-trust">
+            <span><i class="dot-amber"></i> Sem cartão</span>
+            <span><i class="dot-amber"></i> Cancela quando quiser</span>
+            <span><i class="dot-amber"></i> Pronto em 30min</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/product-devices.png" alt="Carnauba.io rodando em notebook e celular">
+          <div class="glass-card gc-1">
+            <div class="gc-header">
+              <svg class="gc-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                <polyline points="16 7 22 7 22 13" />
+              </svg>
+              <span class="gc-label">Faturamento hoje</span>
+            </div>
+            <p class="gc-value">R$ 2.480</p>
+            <p class="gc-sub gc-green">↑ +18% essa semana</p>
+          </div>
+          <div class="glass-card gc-2">
+            <div class="gc-header">
+              <svg class="gc-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+                <polyline points="9 16 11 18 15 14" />
+              </svg>
+              <span class="gc-label">Auto agendamento</span>
+            </div>
+            <p class="gc-value">3 novos pedidos</p>
+            <p class="gc-sub">via Vitrine Online</p>
+          </div>
+          <div class="glass-card gc-3">
+            <div class="gc-header">
+              <svg class="gc-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              <span class="gc-label">Próximo agendamento</span>
+            </div>
+            <p class="gc-value" style="font-size:15px">Honda Civic • 14h00</p>
+            <p class="gc-sub">Polimento Técnico</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ 02 · PROBLEMA ============ -->
+  <section class="section" id="problema" data-screen-label="Problema">
+    <div class="wrap">
+      <div class="section-tag"></div>
+      <div class="section-head">
+        <h2 style="text-align: center;">Você não tem um problema de cliente.<br><span class="serif-i">Tem um problema de
+            gestão.</span></h2>
+        <!-- <p>O serviço é bom — o cliente sai satisfeito. Mas a operação roda no improviso, e é aí que o dinheiro vaza todo
+          mês sem ninguém perceber.</p> -->
+      </div>
+
+      <div class="problem-grid">
+        <div class="pain">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16v4H4zM4 12h16v8H4z" />
+              <path d="M8 16h4" />
+            </svg></div>
+          <div class="num">01 — agenda</div>
+          <h4>Caderninho e WhatsApp.</h4>
+          <p>Anotação perdida, horário em duplicado, cliente esperando na calçada.</p>
+        </div>
+        <div class="pain">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="4" />
+              <path d="M5 21c0-4 3-7 7-7s7 3 7 7" />
+            </svg></div>
+          <div class="num">02 — retenção</div>
+          <h4>Cliente some.</h4>
+          <p>Fez um polimento de R$ 150, gostou, foi embora e você não tem motivo pra ele voltar.</p>
+        </div>
+        <div class="pain">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 7h18M3 12h18M3 17h12" />
+            </svg></div>
+          <div class="num">03 — finanças</div>
+          <h4>"Achismo" no caixa.</h4>
+          <p>Quanto entrou? Quanto saiu de produto? Quem mais gasta com você? Ninguém sabe.</p>
+        </div>
+        <div class="pain">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 7l-9 9-5-5" />
+            </svg></div>
+          <div class="num">04 — tempo</div>
+          <h4>Refém do WhatsApp.</h4>
+          <p>"Que horas tem amanhã?" cada mensagem é um carro que você não está polindo.</p>
+        </div>
+      </div>
+      <p class="problem-foot">O futuro do estúdio não está no serviço. Está na gestão.</p>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">Quero resolver isso agora <svg
+            class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 · SOLUÇÃO ============ -->
+  <section class="section panel" data-screen-label="Solução">
+    <div class="wrap">
+      <div class="sol-content">
+        <h2>Do caderninho para uma plataforma <span class="serif-i">de verdade.</span></h2>
+        <p>Sem migração dolorida, sem treinamento de duas semanas. Você configura o essencial numa tarde e já roda a
+          operação inteira no mesmo dia.</p>
+        <div class="sol-steps">
+          <div class="sol-step">
+            <span class="sn">01</span>
+            <div class="st">Crie sua conta</div>
+            <div class="sp">Cadastre o estúdio, seus serviços e preços em minutos.</div>
+          </div>
+          <div class="sol-step">
+            <span class="sn">02</span>
+            <div class="st">Configure o essencial</div>
+            <div class="sp">Agenda, serviços, estoque e o programa de fidelidade do seu jeito.</div>
+          </div>
+          <div class="sol-step">
+            <span class="sn">03</span>
+            <div class="st">Ganhe tempo</div>
+            <div class="sp">A operação se organiza e o cliente volta no automático.</div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:2.5rem;">
+          <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">Criar minha conta grátis <svg
+              class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round">
+              <path d="M5 12h14M13 5l7 7-7 7" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04 · VITRINE ONLINE (STAR FEATURE) ============ -->
+  <section class="vitrine" id="vitrine" data-screen-label="Vitrine Online">
+    <div class="wrap vitrine-inner">
+      <div class="vit-head">
+        <div class="vit-pill"><span class="dot-amber"></span> Funcionalidade estrela · Vitrine Online</div>
+        <h2>O cliente agenda sozinho.<br>Você só <span class="serif-i">confirma.</span></h2>
+        <p>Uma página pública com seus serviços, preços e horários livres. Você compartilha o link, e o cliente marca a
+          qualquer hora, e a confirmação já sai pronta no WhatsApp.</p>
+      </div>
+
+      <div class="vit-stage">
+        <!-- public booking page mock -->
+        <div class="vit-mock">
+          <div class="vm-bar"><i></i><i></i><i></i><span class="vm-url">carnauba.io/estudio-lava-cia</span></div>
+          <div class="vm-body">
+            <div class="vm-store">
+              <div class="vm-logo"></div>
+              <div>
+                <div class="nm">Estúdio Lava &amp; Cia</div>
+                <div class="mt"><span class="open">● Aberto</span><span>Av. Brasil, 540 — Centro</span></div>
+              </div>
+            </div>
+            <div class="vm-svc sel">
+              <div class="l"><b>Lavagem Detalhada + Cera</b><span>≈ 1h30</span></div>
+              <div class="pr">R$ 120</div>
+              <div class="radio"></div>
+            </div>
+            <div class="vm-svc">
+              <div class="l"><b>Polimento Completo</b><span>≈ 4h</span></div>
+              <div class="pr">R$ 650</div>
+              <div class="radio"></div>
+            </div>
+            <div class="vm-svc">
+              <div class="l"><b>Higienização Interna</b><span>≈ 2h</span></div>
+              <div class="pr">R$ 280</div>
+              <div class="radio"></div>
+            </div>
+            <div class="vm-slots">
+              <span class="vm-slot off">09:00</span>
+              <span class="vm-slot">11:00</span>
+              <span class="vm-slot on">14:00</span>
+              <span class="vm-slot">16:30</span>
+            </div>
+            <div class="vm-cta">Agendar sexta, 12/06 às 14:00 →</div>
+          </div>
+        </div>
+
+        <!-- whatsapp confirmation -->
+        <div class="wa-preview">
+          <div class="wa-header">
+            <div class="wa-avatar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+              </svg></div>
+            <div>
+              <div class="wa-name">Estúdio Lava &amp; Cia</div>
+              <div class="wa-status">online agora</div>
+            </div>
+          </div>
+          <div class="wa-tag">✓ confirmação gerada em 1 clique</div>
+          <div class="wa-bubble wa-in">
+            Olá Camila! 👋 Seu agendamento foi <b>confirmado</b>.<br>
+            🧽 Lavagem Detalhada + Cera<br>
+            🗓 Sexta, 12/06 às 14:00<br>
+            📍 Av. Brasil, 540 — Centro
+          </div>
+          <div class="wa-bubble wa-out">Combinado, chego 10 min antes 👍</div>
+          <div class="wa-time">hoje · 09h14</div>
+        </div>
+      </div>
+
+      <div class="vit-flow">
+        <div class="step">
+          <div class="n">01</div>
+          <h4>Link na sua bio</h4>
+          <p>Instagram, Google ou status do WhatsApp.</p>
+          <div class="stamp-mini">↗</div>
+        </div>
+        <div class="step">
+          <div class="n">02</div>
+          <h4>Cliente agenda sozinho</h4>
+          <p>Vê serviço, preço e horário livre — e marca.</p>
+          <div class="stamp-mini">▸</div>
+        </div>
+        <div class="step">
+          <div class="n">03</div>
+          <h4>Você recebe na hora</h4>
+          <p>Notificação instantânea cai no seu painel.</p>
+          <div class="stamp-mini">✦</div>
+        </div>
+        <div class="step">
+          <div class="n">04</div>
+          <h4>Confirma com 1 toque</h4>
+          <p>A mensagem sai pronta, com tudo certo.</p>
+          <div class="stamp-mini">✓</div>
+        </div>
+        <div class="step">
+          <div class="n">05</div>
+          <h4>Recebe de madrugada</h4>
+          <p>Domingo, feriado, 2h da manhã — sempre aberto.</p>
+          <div class="stamp-mini">∞</div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">Criar minha Vitrine Online <svg
+            class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05 · A PLATAFORMA ============ -->
+  <section class="section" id="plataforma" data-screen-label="Plataforma">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Tudo que seu estúdio precisa. <span class="serif-i">Numa plataforma só.</span></h2>
+        <p>Cada módulo foi pensado pra como um estúdio de estética automotiva trabalha de verdade — não adaptado de um
+          sistema de salão de beleza.</p>
+      </div>
+
+      <div class="modules-grid">
+        <div class="mod">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="5" width="18" height="16" rx="2" />
+              <path d="M3 10h18M8 3v4M16 3v4" />
+            </svg></div>
+          <h4>Agenda Digital</h4>
+          <p>Calendário visual. Sem conflito, sem double booking, sem WhatsApp do meio-dia.</p>
+        </div>
+        <div class="mod">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 3.13a4 4 0 0 1 0 7.75M22 21v-2a4 4 0 0 0-3-3.87M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+            </svg></div>
+          <h4>CRM de Clientes</h4>
+          <p>Histórico completo. Quem é, quantas vezes voltou, quanto já gastou, qual carro tem.</p>
+        </div>
+        <div class="mod">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2" />
+              <circle cx="6.5" cy="16.5" r="2.5" />
+              <circle cx="16.5" cy="16.5" r="2.5" />
+            </svg></div>
+          <h4>Veículos &amp; OS</h4>
+          <p>Cada carro com seu histórico. Ordem de serviço digital, profissional, na hora.</p>
+        </div>
+        <div class="mod">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+              <circle cx="7" cy="7" r="1.5" />
+            </svg></div>
+          <h4>Carimbo Digital</h4>
+          <p>Programa de fidelidade automático. Carimbos virtuais, recompensa configurável.</p>
+        </div>
+        <div class="mod">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 7l-3-3-7 7-3-3-5 5v6h6l5-5-3-3 7-7z" />
+            </svg></div>
+          <h4>Estoque <span class="tag">Pro</span></h4>
+          <p>Sabe quanto gastou de cera, polidor, silicone. Alerta quando o produto está acabando.</p>
+        </div>
+        <div class="mod">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v18h18M7 14l4-4 4 4 6-6" />
+            </svg></div>
+          <h4>Relatórios <span class="tag">Pro</span></h4>
+          <p>Faturamento, ticket médio, ranking de clientes. Decisão com dado, não com chute.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">Testar 15 dias grátis <svg class="arrow"
+            width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 · DEPOIMENTOS ============ -->
+  <section class="section panel" id="depoimentos" data-screen-label="Depoimentos">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 style="text-align: center;">Donos de estúdio que <span class="serif-i">profissionalizaram a gestão.</span>
+        </h2>
+      </div>
+
+      <div class="t-marquee">
+        <div class="t-col" style="--t-duration:34s;">
+          <div class="t-col-track">
+            <div class="t-col-set">
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Saí do caderninho em uma tarde. Agenda, OS e fidelidade rodando no mesmo dia. Não
+                  acreditei que era tão simples."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">MR</div>
+                  <div>
+                    <div class="t-name">Marcos R.</div>
+                    <div class="t-place">Garage Detail · Londrina/PR</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"O cliente manda print do cartão de fidelidade pra galera no grupo. Virou marketing
+                  orgânico que eu não esperava."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">JS</div>
+                  <div>
+                    <div class="t-name">Juliana S.</div>
+                    <div class="t-place">Studio Lava · Bauru/SP</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"O relatório me mostrou que eu cobrava barato no polimento. Reajustei e faturei
+                  mais sem pegar mais serviço."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">DA</div>
+                  <div>
+                    <div class="t-name">Diego A.</div>
+                    <div class="t-place">Premium Detail · Recife/PE</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+            </div>
+            <div class="t-col-set" aria-hidden="true">
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Saí do caderninho em uma tarde. Agenda, OS e fidelidade rodando no mesmo dia. Não
+                  acreditei que era tão simples."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">MR</div>
+                  <div>
+                    <div class="t-name">Marcos R.</div>
+                    <div class="t-place">Garage Detail · Londrina/PR</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"O cliente manda print do cartão de fidelidade pra galera no grupo. Virou marketing
+                  orgânico que eu não esperava."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">JS</div>
+                  <div>
+                    <div class="t-name">Juliana S.</div>
+                    <div class="t-place">Studio Lava · Bauru/SP</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"O relatório me mostrou que eu cobrava barato no polimento. Reajustei e faturei
+                  mais sem pegar mais serviço."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">DA</div>
+                  <div>
+                    <div class="t-name">Diego A.</div>
+                    <div class="t-place">Premium Detail · Recife/PE</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="t-col t-col-md" style="--t-duration:42s;">
+          <div class="t-col-track">
+            <div class="t-col-set">
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"A vitrine mudou meu sábado: cliente agenda sozinho de madrugada e eu só confirmo
+                  no celular, com café na mão."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">RM</div>
+                  <div>
+                    <div class="t-name">Rafael M.</div>
+                    <div class="t-place">Auto Shine · Curitiba/PR</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Os furos de agenda quase sumiram. A confirmação sai pronta no WhatsApp e o cliente
+                  já chega sabendo de tudo."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">CT</div>
+                  <div>
+                    <div class="t-name">Camila T.</div>
+                    <div class="t-place">Detail Express · Porto Alegre/RS</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Hoje eu sei quem é meu cliente que mais gasta e qual carro ele tem. Antes ficava
+                  tudo na memória — agora é um clique."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">BF</div>
+                  <div>
+                    <div class="t-name">Bruno F.</div>
+                    <div class="t-place">Lava Jato do Bruno · Goiânia/GO</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+            </div>
+            <div class="t-col-set" aria-hidden="true">
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"A vitrine mudou meu sábado: cliente agenda sozinho de madrugada e eu só confirmo
+                  no celular, com café na mão."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">RM</div>
+                  <div>
+                    <div class="t-name">Rafael M.</div>
+                    <div class="t-place">Auto Shine · Curitiba/PR</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Os furos de agenda quase sumiram. A confirmação sai pronta no WhatsApp e o cliente
+                  já chega sabendo de tudo."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">CT</div>
+                  <div>
+                    <div class="t-name">Camila T.</div>
+                    <div class="t-place">Detail Express · Porto Alegre/RS</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Hoje eu sei quem é meu cliente que mais gasta e qual carro ele tem. Antes ficava
+                  tudo na memória — agora é um clique."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">BF</div>
+                  <div>
+                    <div class="t-name">Bruno F.</div>
+                    <div class="t-place">Lava Jato do Bruno · Goiânia/GO</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="t-col t-col-lg" style="--t-duration:38s;">
+          <div class="t-col-track">
+            <div class="t-col-set">
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"O estoque avisa quando a cera vai acabar. Parei de fechar o mês sem saber pra onde
+                  foi o dinheiro do produto."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">LN</div>
+                  <div>
+                    <div class="t-name">Larissa N.</div>
+                    <div class="t-place">N. Detail Studio · Belo Horizonte/MG</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Suporte responde rápido, no WhatsApp mesmo — sem fila, sem robô. Quando travo em
+                  algo, resolvo em minutos."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">AS</div>
+                  <div>
+                    <div class="t-name">André S.</div>
+                    <div class="t-place">Shine Up Estética · Florianópolis/SC</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Montei o programa de fidelidade em 10 minutos. Hoje tenho cliente que volta só pra
+                  fechar o cartão e ganhar o prêmio."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">PV</div>
+                  <div>
+                    <div class="t-name">Paula V.</div>
+                    <div class="t-place">Cera &amp; Cia · Salvador/BA</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+            </div>
+            <div class="t-col-set" aria-hidden="true">
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"O estoque avisa quando a cera vai acabar. Parei de fechar o mês sem saber pra onde
+                  foi o dinheiro do produto."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">LN</div>
+                  <div>
+                    <div class="t-name">Larissa N.</div>
+                    <div class="t-place">N. Detail Studio · Belo Horizonte/MG</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Suporte responde rápido, no WhatsApp mesmo — sem fila, sem robô. Quando travo em
+                  algo, resolvo em minutos."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">AS</div>
+                  <div>
+                    <div class="t-name">André S.</div>
+                    <div class="t-place">Shine Up Estética · Florianópolis/SC</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+              <div class="t-card">
+                <div class="t-stars">★★★★★</div>
+                <div class="t-quote">"Montei o programa de fidelidade em 10 minutos. Hoje tenho cliente que volta só pra
+                  fechar o cartão e ganhar o prêmio."</div>
+                <div class="t-meta">
+                  <div class="t-avatar">PV</div>
+                  <div>
+                    <div class="t-name">Paula V.</div>
+                    <div class="t-place">Cera &amp; Cia · Salvador/BA</div>
+                  </div>
+                  <div class="t-badge-verified">✓ verificado</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <!-- <div class="stat">
+          <div class="v">+340</div>
+          <div class="k">Estúdios ativos</div>
+        </div> -->
+        <div class="stat">
+          <div class="v">+700</div>
+          <div class="k">OS - Ordens de Serviços emitidas</div>
+        </div>
+        <div class="stat">
+          <div class="v">+47%</div>
+          <div class="k">Aumento de retorno</div>
+        </div>
+        <div class="stat">
+          <div class="v">4.9<span
+              style="font-family: var(--serif); font-style: italic; color: var(--ember); font-size: 24px;">★</span>
+          </div>
+          <div class="k">Avaliação média</div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">Começar grátis agora <svg class="arrow"
+            width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07 · PLANOS ============ -->
+  <section class="section" id="planos" data-screen-label="Planos">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Valores que cabem em <span class="serif-i">qualquer tamanho de operação.</span></h2>
+        <p>Sem fidelidade contratual. Sem taxa de cancelamento. Sem letra miúda escondida no rodapé.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="plan">
+          <h3>Básico</h3>
+          <div class="desc">Organização e agenda. Pra sair do caderninho hoje.</div>
+          <div class="price"><span class="v">39,90</span><span class="per">/mês</span></div>
+          <ul>
+            <li><span class="ck">✓</span>Agenda digital com calendário visual</li>
+            <li><span class="ck">✓</span>Gestão de clientes (até 50)</li>
+            <li><span class="ck">✓</span>Cadastro de veículos</li>
+            <li><span class="ck">✓</span>Ordem de serviço digital</li>
+            <li><span class="ck">✓</span>Carimbo Digital (fidelidade)</li>
+            <li><span class="ck">✓</span>Suporte WhatsApp</li>
+          </ul>
+          <a class="btn btn-ghost" href="https://carnauba-io.vercel.app/login">Começar com o Básico</a>
+          <div class="footnote">15 dias grátis · Sem cartão</div>
+        </div>
+
+        <div class="plan pro">
+          <div class="plan-tag">★ Mais escolhido</div>
+          <h3>Pro</h3>
+          <div class="desc">A plataforma completa. Pra estúdio que quer crescer.</div>
+          <div class="price"><span class="v">69,90</span><span class="per">/mês</span></div>
+          <ul>
+            <li><span class="ck">✓</span>Tudo do Básico, incluído</li>
+            <li><span class="ck">✓</span><b style="color:var(--amber); font-weight:600;">Vitrine Online — agendamento
+                público</b></li>
+            <li><span class="ck">✓</span>Confirmação no WhatsApp com 1 toque</li>
+            <li><span class="ck">✓</span>Estoque com atualizações automáticas</li>
+            <li><span class="ck">✓</span>Notificações de agendamento</li>
+            <li><span class="ck">✓</span>Relatórios financeiros completos</li>
+            <li><span class="ck">✓</span>Clientes e veículos ilimitados</li>
+            <li><span class="ck">✓</span>Suporte prioritário no WhatsApp</li>
+          </ul>
+          <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">
+            Começar com o Pro
+            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round">
+              <path d="M5 12h14M13 5l7 7-7 7" />
+            </svg>
+          </a>
+          <div class="footnote">15 dias grátis · Sem cartão · Cancela quando quiser</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 08 · FAQ ============ -->
+  <section class="section panel" id="faq" data-screen-label="FAQ">
+    <div class="wrap">
+      <div class="section-head center">
+        <h2>Sem firula. <span class="serif-i">Sem letra miúda.</span></h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq" open>
+          <summary>É difícil de configurar? <span class="plus">+</span></summary>
+          <div class="answer">Não. Você cria o estúdio, adiciona seus serviços e seu primeiro cliente em <b>menos de 30
+              minutos</b>. A maioria dos donos termina o setup tomando café.</div>
+        </details>
+        <details class="faq">
+          <summary>Preciso instalar alguma coisa? <span class="plus">+</span></summary>
+          <div class="answer">Nada. Carnauba.io é <b>100% online</b>. Funciona no notebook, no tablet do balcão e no seu
+            celular. Login direto pelo navegador.</div>
+        </details>
+        <details class="faq">
+          <summary>Como funciona a Vitrine Online? <span class="plus">+</span></summary>
+          <div class="answer">Você ganha um <b>link público</b> com seus serviços, preços e horários livres. Compartilha
+            na bio do Instagram ou no WhatsApp, o cliente agenda sozinho, e você só confirma com 1 toque.</div>
+        </details>
+        <details class="faq">
+          <summary>Meus clientes vão realmente usar a parte digital? <span class="plus">+</span></summary>
+          <div class="answer">Vão. Não tem app pra baixar é só <b>um link no WhatsApp</b>. Abre direto no celular, vê
+            os carimbos, agenda o próximo. O mesmo gesto de quem confere a recompensa do iFood.</div>
+        </details>
+        <details class="faq">
+          <summary>E se eu quiser cancelar? <span class="plus">+</span></summary>
+          <div class="answer">Cancela direto no painel, num clique. Sem ligação, sem retenção, sem burocracia.</div>
+        </details>
+        <details class="faq">
+          <summary>Tem suporte humano? <span class="plus">+</span></summary>
+          <div class="answer">Sim. Em ambos os planos o suporte é via WhatsApp direto
+            com a equipe, contato com gente de verdade, sem chatbot, sem fila. <b>(Plano Pro tem atendimento
+              prioritário)
+            </b></div>
+        </details>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login">Começar 15 dias grátis <svg class="arrow"
+            width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09 · CTA FINAL ============ -->
+  <section class="final-cta" data-screen-label="CTA final">
+    <div class="inner wrap">
+      <span class="eyebrow" style="justify-content: center;">Última chamada</span>
+      <h2 style="margin-top: 22px;">Sua empresa automotiva,<br><span class="serif-i">organizada amanhã.</span></h2>
+      <p>15 dias grátis, sem cartão. Setup em meia hora.<br>Se não fizer sentido, a gente apaga tudo e segue a vida.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://carnauba-io.vercel.app/login"
+          style="padding: 16px 26px; font-size: 15px;">
+          Começar agora — É de graça
+          <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a class="btn btn-ghost" href="#demo" style="padding: 16px 22px; font-size: 15px;">Falar com a equipe</a>
+      </div>
+      <div class="signal">
+        <span><i class="dot-amber"></i> Sem cartão de crédito</span>
+        <span><i class="dot-amber"></i> Cancela quando quiser</span>
+        <span><i class="dot-amber"></i> Suporte humano de verdade</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-row">
+        <div>
+          <a class="brand" href="#"><img src="assets/LOGO2.png" alt="Carnauba.io" class="brand-logo"></a>
+          <p class="foot-tag">O sistema feito pra estúdios de estética automotiva que querem parar de perder cliente e
+            começar a operar de verdade.</p>
+        </div>
+        <div>
+          <h6>Produto</h6>
+          <ul>
+            <li><a href="#vitrine">Vitrine Online</a></li>
+            <li><a href="#plataforma">A plataforma</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#demo">Demonstração</a></li>
+          </ul>
+        </div>
+        <div>
+          <h6>Empresa</h6>
+          <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Termos &amp; privacidade</a></li>
+          </ul>
+        </div>
+        <div>
+          <h6>Fale com a gente</h6>
+          <ul>
+            <li><a
+                href="https://wa.me/5517988069408?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20um%20especialista">WhatsApp
+                · (17) 98806-9408</a></li>
+            <li><a href="#">@carnauba.io</a></li>
+            <li><a href="mailto:contato@carnaubaio.com.br">contato@carnaubaio.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-mark">carnauba.io</div>
+      <div class="foot-bottom">
+        <span>© 2026 Carnauba.io · Feito para detailer</span>
+        <span>Brasil — 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.section-head, .pain, .mod, .step, .t-card, .plan, .stat, .vit-mock, .wa-preview')
+      .forEach(el => { el.classList.add('reveal'); io.observe(el); });
+  </script>
+
+</body>
+
+</html>
